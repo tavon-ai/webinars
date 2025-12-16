@@ -22,9 +22,12 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 * agent sdk https://github.com/anthropics/claude-agent-sdk-demos
 
 ## Context Management
-* CLAUDE.md
+* LLMs are stateless
+* CLAUDE.md: Why, What, How
 * Tokens / Auto-compaction
-* /clear 
+* Less is more https://x.com/0xblacklight/status/1993463357790121998/photo/1
+* Progressive Disclosure
+* Tools: /clear & /rewind 
 
 ## How to
 * ask Claude
@@ -41,9 +44,10 @@ In this practical webinar, I’ll walk you through how I personally use modern c
  
 ## advanced workflows
 * research how [feature] was implemented. save as a file.
+
 * debug ui by drawing borders
 * provide more scripts
- * spec driven: ai-dev tasks / multi-phase plans
+* spec driven: ai-dev tasks / multi-phase plans
 
 ## Parallel development
 * Git worktrees
@@ -53,6 +57,8 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 * lint, build, test
 * git
 * run db commands manually
+* don't let them escape guardrails. eg. db:generate
+
 
 ## Fails
 * playwright
