@@ -10,6 +10,7 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 * Software Architecture: That's what I care about. Or do I?
 * Context Management aka "Use /clear"
 * Spec Driven Development: What is it? Why I find it helpful.
+* Loop: Context, Action, Verify
 * Guardrails: linting, building, testing - Help the assistant to help you.
 * What's the Source of truth: Markdown? Code? Comments? Tests?
 * Parallelization: What tasks do I parallelize? Or how many threads does my brain have?
@@ -24,17 +25,22 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 ## Context Management
 * LLMs are stateless
 * CLAUDE.md: Why, What, How
+* /context
 * Tokens / Auto-compaction
 * Less is more https://x.com/0xblacklight/status/1993463357790121998/photo/1
-* Progressive Disclosure
+* Progressive Disclosure. Skills.
 * Tools: /clear & /rewind 
+* Agent-Loop: Give Claude tools to see the output
+TODO: /init /compact
+* Use Esc. Restart (10-20 of the time)
+
 
 ## How to
 * ask Claude
-* plan mode
+* plan mode (start with)
 * extended thinking
 * @file @dir
-* custom / commands
+* custom commands for repetetive tasks
 
 ## basic workflows
 * give me an overview of ...
@@ -50,6 +56,7 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 * spec driven: ai-dev tasks / multi-phase plans
 
 ## Parallel development
+* Git checkouts
 * Git worktrees
 * Different tasks
 
@@ -65,11 +72,17 @@ In this practical webinar, I’ll walk you through how I personally use modern c
 * MCPs
 
 ## Next
-* Sub-Agents
+* Sub-Agents (think of automating)
+* Hooks: e.g. PostToolUse for formatting
+* Permissions
+* Plugins: https://github.com/anthropics/claude-plugins-official/tree/main/plugins
+
 
 ## Demo
 * new feature: link notes from the agent card
 * new feature: only show gmail / google calendar if they are configured
 * new more complex feature: more analytics on the dashboard. inlucing tests for the API
+
+
 
 
